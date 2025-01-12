@@ -1,15 +1,9 @@
 {
     "compilerOptions": {
-        "target": "ES2019",
-        "module": "CommonJS",
-        "moduleResolution": "node",
+        "target": "ESNext",
+        "module": "commonjs",
         "strict": true,
-        "types": [
-            "brackets-model"
-        ],
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "resolveJsonModule": true,
-        "noImplicitAny": true
+        "declaration": true,
+        "outDir": "./dist"
     }
 }
